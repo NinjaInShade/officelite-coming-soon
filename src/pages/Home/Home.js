@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/shared/logo.svg';
 import Illustration from '../../assets/home/illustration-charts.svg';
+import BG from '../../assets/home/bg-pattern-header.svg';
 import './Home.css';
 
 export default function Home() {
@@ -14,27 +15,27 @@ export default function Home() {
           </Link>
         </div>
       </nav>
-      <main>
-        <header className='header side-padding'>
-          <div className='container header-container'>
-            <div className='header-text'>
-              <h1 className='header-title'>A simple solution to complex tasks is coming soon</h1>
-              <p className='body header-lead'>
-                Say goodbye to inefficient juggling of multiple apps, teams and projects. Officelite is the new
-                collaboration platform built with an intuitive interface to improve productivity.
-              </p>
-              <Link to='/signup' className='btn btn-primary header-btn'>
-                Get Started
-              </Link>
-            </div>
-            <img
-              src={Illustration}
-              alt='Header illustration. Shows a graph, statistics card and typography demonstration which all represent an improve in productivity'
-              className='header-img'
-            />
+      <header className='header side-padding'>
+        <img src={BG} alt='Decorative circle illustration' className='header-bg' />
+        <div className='container header-container'>
+          <div className='header-text'>
+            <h1 className='header-title'>A simple solution to complex tasks is coming soon</h1>
+            <p className='body header-lead'>
+              Say goodbye to inefficient juggling of multiple apps, teams and projects. Officelite is the new
+              collaboration platform built with an intuitive interface to improve productivity.
+            </p>
+            <Link to='/signup' className='btn btn-primary header-btn'>
+              Get Started
+            </Link>
           </div>
-        </header>
-      </main>
+          <img
+            src={Illustration}
+            alt='Header illustration. Shows a graph, statistics card and typography demonstration which all represent an improve in productivity'
+            className='header-img'
+          />
+        </div>
+      </header>
+      <main></main>
     </>
   );
 }
