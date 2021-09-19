@@ -23,7 +23,7 @@ export default function Home() {
                 Say goodbye to inefficient juggling of multiple apps, teams and projects. Officelite is the new
                 collaboration platform built with an intuitive interface to improve productivity.
               </p>
-              <Link to='/signup' className='btn btn-primary'>
+              <Link to='/signup' className='btn btn-primary header-btn'>
                 Get Started
               </Link>
             </div>

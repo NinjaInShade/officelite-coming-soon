@@ -9,12 +9,33 @@
   font-weight: 700;
 }
 
+.btn:hover {
+  transition: all 0.2s ease-in-out;
+}
+
 .btn-primary {
   color: #fff;
   background-color: var(--primary);
 }
 
 .btn-primary:hover {
-  transition: all 0.2s ease-in-out;
   background-color: var(--primary-light);
+}
+
+.btn-secondary {
+  color: var(--primary);
+  background-color: #e4eaff;
+}
+
+.btn-secondary:hover {
+  background-color: #d3dcff;
+}
+
+.btn-tertiary {
+  color: var(--primary);
+  background-color: #fff;
+}
+
+.btn-tertiary:hover {
+  color: var(--primary-light);
 }
