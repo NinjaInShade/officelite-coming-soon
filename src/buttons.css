@@ -1,0 +1,20 @@
+.btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: var(--body-s);
+  line-height: var(--body-s-lh);
+  border-radius: 28px;
+  padding: 14px 40px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.btn-primary:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--primary-light);
+}

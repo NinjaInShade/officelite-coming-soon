@@ -21,6 +21,8 @@
 
   --error: #f05b5b;
 
+  --bg: #fafafa;
+
   /* Typography */
   --h1: 3.5rem;
   --h1-lh: 64px;
@@ -42,6 +44,11 @@
   --body-s-lh: 28px;
 
   /* Other */
+  --container: 1100px;
+}
+
+body {
+  background-color: var(--bg);
 }
 
 h1 {
@@ -96,7 +103,18 @@ a:focus {
   outline: dotted var(--grey) 1.75px;
 }
 
-@media (max-width: 768px) {
+.side-padding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
   :root {
     /* Typography */
     --h1: 2.5rem;
@@ -104,5 +122,12 @@ a:focus {
 
     --body: 1rem;
     --body-lh: 26px;
+  }
+}
+
+@media (max-width: 650px) {
+  .side-padding {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
