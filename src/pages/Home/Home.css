@@ -67,6 +67,7 @@
 }
 
 .footer {
+  background: no-repeat url('../../assets/home/bg-pattern-footer.svg') -580px 42% / 2000px;
   background-color: var(--black);
   padding-top: 340px;
   padding-bottom: 90px;
@@ -125,6 +126,8 @@
   }
 
   .footer {
+    background: no-repeat url('../../assets/home/bg-pattern-footer.svg') 50% 10% / 1500px;
+    background-color: var(--black);
     padding-top: 600px;
     padding-bottom: 100px;
   }
