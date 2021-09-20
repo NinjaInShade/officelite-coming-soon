@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PricingCard from '../../components/PricingCard/PricingCard';
+import Countdown from '../../components/Countdown/Countdown';
 import Logo from '../../assets/shared/logo.svg';
 import Illustration from '../../assets/home/illustration-charts.svg';
 import BG from '../../assets/home/bg-pattern-header.svg';
@@ -61,6 +62,14 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <footer className='footer side-padding'>
+        <div className='container footer-container'>
+          <Countdown />
+          <Link to='/signup' className='btn btn-primary footer-btn'>
+            Get Started
+          </Link>
+        </div>
+      </footer>
     </>
   );
 }

@@ -66,6 +66,22 @@
   gap: 30px;
 }
 
+.footer {
+  background-color: var(--black);
+  padding-top: 340px;
+  padding-bottom: 90px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-btn {
+  margin-left: 20px;
+}
+
 @media (max-width: 1440px) {
   .header-bg {
     right: -23%;
@@ -106,6 +122,21 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .footer {
+    padding-top: 600px;
+    padding-bottom: 100px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-btn {
+    margin: 48px 0 0 0;
   }
 }
 
@@ -153,5 +184,13 @@
 
   .pricing-plans-container {
     gap: 32px;
+  }
+
+  .footer {
+    padding-top: 895px;
+  }
+
+  .footer-btn {
+    margin-top: 40px;
   }
 }
