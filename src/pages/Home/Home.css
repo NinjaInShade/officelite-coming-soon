@@ -193,4 +193,8 @@
   .footer-btn {
     margin-top: 40px;
   }
+
+  .desktop-btn {
+    display: block;
+  }
 }
