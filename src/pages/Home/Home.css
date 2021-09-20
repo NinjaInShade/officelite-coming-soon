@@ -56,6 +56,16 @@
   box-shadow: 0 25px 25px -10px hsla(227, 52%, 50%, 0.25);
 }
 
+.pricing-plans {
+  margin-bottom: -254px;
+}
+
+.pricing-plans-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
 @media (max-width: 1440px) {
   .header-bg {
     right: -23%;
@@ -86,6 +96,16 @@
   .header-bg {
     max-width: 666px;
     right: -40%;
+  }
+
+  .pricing-plans {
+    margin-bottom: -498px;
+  }
+
+  .pricing-plans-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 }
 
@@ -125,5 +145,13 @@
     max-width: 460px;
     top: -55%;
     right: 50%;
+  }
+
+  .pricing-plans {
+    margin-bottom: -794px;
+  }
+
+  .pricing-plans-container {
+    gap: 32px;
   }
 }
