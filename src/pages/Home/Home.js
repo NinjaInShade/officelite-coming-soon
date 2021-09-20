@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <nav className='nav side-padding'>
-        <div className='container'>
-          <Link to='/' className='nav-logo-container'>
+        <div className='container nav-container'>
+          <Link to='/'>
             <img src={Logo} alt='Officelite company logo' className='nav-logo' />
           </Link>
         </div>

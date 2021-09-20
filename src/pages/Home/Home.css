@@ -2,9 +2,9 @@
   padding-top: 80px;
 }
 
-.nav-logo-container {
+.nav-container {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
 }
 
 .nav-logo {
@@ -148,7 +148,7 @@
     padding-top: 45px;
   }
 
-  .nav-logo-container {
+  .nav-container {
     justify-content: center;
   }
 
