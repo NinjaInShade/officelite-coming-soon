@@ -1,0 +1,50 @@
+.signup {
+  display: grid;
+  grid-template-columns: 1fr 855px 2.5fr;
+  min-height: 100vh;
+}
+
+.signup-main {
+  padding-left: 40px;
+  width: 100%;
+}
+
+.right-panel {
+  background: repeat-x url('../../assets/sign-up/bg-pattern-side.svg') -700px -700px / 2036px;
+  background-color: var(--black);
+}
+
+.signup-nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 80px 0 125px 0;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-title,
+.signup-lead {
+  max-width: 540px;
+}
+
+.signup-title {
+  color: var(--black);
+}
+
+.signup-lead {
+  color: var(--grey);
+  margin: 24px 0 40px 0;
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 650px) {
+  .signup-main {
+    padding-left: 24px;
+  }
+}
