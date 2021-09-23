@@ -3,6 +3,11 @@
   margin-bottom: 8px;
 }
 
+.countdown.light {
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
 .countdown.light .countdown-title {
   color: var(--grey-dark);
 }
@@ -20,7 +25,7 @@
 .countdown-card {
   background-color: var(--grey-dark);
   border-radius: 13px;
-  padding: 16.5px 18px;
+  padding: 16.5px;
 }
 
 .countdown.light .countdown-card {

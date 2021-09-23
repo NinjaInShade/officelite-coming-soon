@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/shared/logo.svg';
 import Countdown from '../../components/Countdown/Countdown';
+import SignupForm from '../../components/SignupForm/SignupForm';
 import './Signup.css';
 
 export default function Signup() {
@@ -23,7 +24,7 @@ export default function Signup() {
             </p>
             <Countdown colour='light' />
           </div>
-          {/* <SignupForm /> */}
+          <SignupForm />
         </section>
       </div>
       <div className='right-panel'></div>
