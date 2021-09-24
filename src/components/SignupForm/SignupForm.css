@@ -7,7 +7,12 @@
   z-index: 2;
 }
 
+.form-input:not(:last-child) {
+  margin-bottom: 24px;
+}
+
 .form .btn {
+  margin-top: 40px;
   width: 360px;
 }
 

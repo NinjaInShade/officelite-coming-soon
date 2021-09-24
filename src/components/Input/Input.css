@@ -1,0 +1,35 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid hsla(227, 14%, 52%, 0.5);
+  padding-bottom: 16px;
+}
+
+.input {
+  color: var(--black);
+  padding: 0 16px 0 16px;
+  flex-grow: 1;
+}
+
+.input::placeholder {
+  color: hsla(227, 14%, 52%, 0.5);
+}
+
+.error-icon {
+  margin-right: 20px;
+  visibility: hidden;
+}
+
+.input-error {
+  border-bottom: 1px solid var(--error);
+}
+
+.input-error .input {
+  color: var(--error);
+}
+
+.input-error .error-icon {
+  visibility: unset;
+}
