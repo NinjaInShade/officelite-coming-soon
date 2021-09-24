@@ -4,6 +4,8 @@
   padding: 40px 42px 50px 42px;
   margin-right: -255px;
   border-radius: 13px;
+  max-width: 448px;
+  width: 100%;
   z-index: 2;
 }
 
@@ -13,11 +15,14 @@
 
 .form .btn {
   margin-top: 40px;
-  width: 360px;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
 }
 
 @media (max-width: 650px) {
+  .form {
+    padding: 24px;
+  }
 }
