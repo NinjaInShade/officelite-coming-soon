@@ -61,7 +61,6 @@ export default function Input({
                 <img
                   src={CheckIcon}
                   alt='Check icon'
-                  className='input-check'
                   style={dropdownArray[index] === dropdownSelected ? {} : { display: 'none' }}
                 />
               </button>
