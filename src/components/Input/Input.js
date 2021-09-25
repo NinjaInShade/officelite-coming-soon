@@ -12,6 +12,7 @@ export default function Input({
   setValue,
   error,
   dropdownArray = [{ name: 'default', price: 'default' }],
+  validateInput,
 }) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [dropdownSelected, setDropdownSelected] = useState(dropdownArray[0]);
@@ -36,7 +37,13 @@ export default function Input({
         className='body-s input'
         placeholder={placeholder}
         value={value.value}
-        onChange={(e) => setValue({ value: e.target.value, error: value.error })}
+        onChange={(e) => {
+          if (validateInput) {
+            validateInput(e.target.value);
+          } else {
+            setValue({ value: e.target.value, error: false });
+          }
+        }}
       />
       <img src={ErrorIcon} className='error-icon' alt='Error icon' />
     </div>
