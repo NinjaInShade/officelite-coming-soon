@@ -21,8 +21,8 @@
 
 .header-bg {
   position: absolute;
-  top: -105%;
-  right: 0;
+  top: -60%;
+  right: -300px;
   z-index: 0;
 }
 
@@ -89,7 +89,8 @@
 
 @media (max-width: 1440px) {
   .header-bg {
-    right: -23%;
+    top: -60%;
+    right: -20%;
   }
 }
 
