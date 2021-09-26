@@ -29,18 +29,26 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Desktop_signup_solution.png)
+![](./screenshots/Desktop_signup_active_solution.png)
+
+![](./screenshots/Tablet_solution.png)
+![](./screenshots/Tablet_signup_solution.png)
+
+![](./screenshots/Mobile_solution.png)
+![](./screenshots/Mobile_signup_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-social-media-dashboard-with-theme-switcher-QpnvJPnrK) -->
-<!-- - Live Site URL: (https://lm-social-media-dashboard.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-officelite-coming-soon-page-Wo0SiPjPw)
+- Live Site URL: (https://lm-officelite-coming-soon.netlify.app/)
 
 ## My process
 
 ### Built with
 
+- React/React-router
 - Semantic HTML5 markup
 - CSS Grid & autofit/minmax
 - CSS custom properties/vars
@@ -49,7 +57,9 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+I learned how to make a dropdown component for my signup form. I was initially going to go with a native <select> element, but the styling wouldn't work as the design stated, so I used divs and buttons (not the best for accessibility unfortunately).
+
+The countdown does count down. I initially tried to do this myself, but was overcomplicating it, getting into infinite react renders and it was a mess. I had to end up googling for a solution, which I understood how it worked afterwards.
 
 ## Author
 
